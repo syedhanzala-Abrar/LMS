@@ -281,6 +281,7 @@ try {
             :activity
         )
     ";
+    
 
     $logStmt = $conn->prepare($logSql);
 
