@@ -283,6 +283,7 @@ try {
     ";
     
 
+
     $logStmt = $conn->prepare($logSql);
 
     $logStmt->bindParam(':userid', $userid);
