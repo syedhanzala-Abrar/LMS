@@ -279,6 +279,7 @@ try {
         (
             :userid,
             :activity
+            
         )
     ";
     
@@ -291,7 +292,7 @@ try {
 
     $logStmt->execute();
 
-    
+      
     http_response_code(200);
 
     echo json_encode([
