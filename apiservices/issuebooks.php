@@ -279,7 +279,6 @@ try {
         (
             :userid,
             :activity
-            
         )
     ";
     
