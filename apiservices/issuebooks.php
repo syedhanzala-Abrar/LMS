@@ -289,10 +289,10 @@ try {
     $logStmt->bindParam(':userid', $userid);
     $logStmt->bindParam(':activity', $activity);
 
-    // $logStmt->execute();
+    $logStmt->execute();
 
       
-    http_response_code(200);
+    // http_response_code(200);
 
     echo json_encode([
         "status" => true,
